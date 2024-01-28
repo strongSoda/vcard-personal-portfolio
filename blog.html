@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Coding | JS | React | Python | Blog</title>
+  <meta name="description" content="Build projects and learn best practices to become a 10x engineer" />
+
+
+  <meta property="og:title" content="Learn Coding | JS | React | Python | Blog" />
+  <meta property="og:description" content="Build projects and learn best practices to become a 10x engineer" />
+  <meta property="og:image" content="https://i.imgur.com/oqUsNMK.png" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <!-- <meta name="twitter:site" content="@ehthin"> -->
+  <meta name="twitter:title" content="Learn Coding | JS | React | Python | Blog" />
+  <meta name="twitter:description" content="Build projects and learn best practices to become a 10x engineer" />
+  <meta name="twitter:image" content="https://i.imgur.com/oqUsNMK.png" />
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://pbs.twimg.com/profile_images/1384023139638644736/2c1QcUcc_400x400.jpg" alt="Imran Khan"
+            width="80" style="border-radius: 30px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Imran Khan">Imran Khan</h1>
+
+          <p class="title">Product Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ikhan77727@gmail.com" class="contact-link">ikhan77727@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 7984172751" class="contact-link">+91 7984172751</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 6, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/imrankhan001/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/EhThing" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/strongSoda" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@JutsuPoint" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@ikhan77727" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/resume.pdf" class="navbar-link">Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/portfolio.html" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="mailto:ikhan77727@gmail.com" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog active">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@ikhan77727/understanding-hooks-in-react-d38f202e1b7b">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*0wiDAEIGVVdkfddS.png"
+                    alt="Understanding Hooks in React" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">React</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 26, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Understanding Hooks in React</h3>
+
+                  <p class="blog-text">
+                    In this tutorial, you will learn what are Hooks, why to use Hooks, how to use built-in useState and
+                    useEffect Hooks,
+                    effects optimizations, rules of Hooks, and adoption strategy for Hooks.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=8WN_u_GQCB0">
+
+                <figure class="blog-banner-box">
+                  <img src="https://i.ytimg.com/vi/8WN_u_GQCB0/maxresdefault.jpg"
+                    alt="GitHub Search App in React JS | Full Project Using Github API | Tutorial" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">React</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">GitHub Search App in React JS | Full Project Using GitHub API |
+                    Tutorial</h3>
+
+                  <p class="blog-text">
+                    In this tutorial, you will learn how to build a React app for searching GitHub profiles by entering
+                    usernames.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a
+                href="https://medium.com/@ikhan77727/how-to-host-react-websites-on-github-a-comprehensive-guide-16f1e0f9374d">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*WSDbpA84Uy9X0pZi.jpg"
+                    alt="How to host react websites on GitHub. A comprehensive guide!" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Open Source</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 26, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How to host react websites on GitHub. A comprehensive guide!</h3>
+
+                  <p class="blog-text">
+                    React websites can be hosted on a number of platforms. One of the options here is to host these on
+                    GitHub.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@ikhan77727/a-beginners-guide-to-writing-a-kickass-readme-87a35c333bc2">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*X8O25AydPD-Q_Pjh.png"
+                    alt="A Beginner's Guide to Writing a Kickass README ✍" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Open Source</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 26, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">A Beginner's Guide to Writing a Kickass README ✍</h3>
+
+                  <p class="blog-text">
+                    Your README should be as good as your project. A great README file helps your project to stand out
+                    from the sea of
+                    open-source software on GitHub.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://dev.to/imrankh13332994/problems-with-types-in-react-4hme">
+
+                <figure class="blog-banner-box">
+                  <img
+                    src="https://res.cloudinary.com/practicaldev/image/fetch/s--AvPMc7dl--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/kmwkhff1mxadepw8d134.png"
+                    alt="Problems with Types in React" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">React</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 19, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Problems with Types in React</h3>
+
+                  <p class="blog-text">
+                    At most of the places, you'll find people talking about using type checking extensions such as Flow
+                    and, Typescript for
+                    React projects.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://codeburst.io/sass-it-up-why-u-should-use-sass-20050e875fa4">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Iu5FmK9iZvC9kZaSsjAnTA.png"
+                    alt="Sass it up! Why u should use Sass" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">CSS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 14, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Sass it up! Why u should use Sass</h3>
+
+                  <p class="blog-text">
+                    Sass (and other CSS preprocessors) can be a powerful ally — a tool that any style-crafter can easily
+                    insert into their
+                    daily work. It took me a while to come around, but I'm sure glad that I did.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://codeburst.io/the-science-of-recursive-functions-fb1bb2af61a">
+
+                <figure class="blog-banner-box">
+                  <img src="https://i.imgur.com/JHqT08O.png" alt="The Science of Recursive Functions for Dummies"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Coding</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 10, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Science of Recursive Functions for Dummies</h3>
+
+                  <p class="blog-text">
+                    A function is called a recursive function if it calls itself again and again. Recursion can be
+                    direct as well as indirect.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=N7h-6d1qTQw">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.mos.cms.futurecdn.net/EzgdmaCQuT84bgDL4fhXZS.jpg"
+                    alt="Javascript Variables and Data Types" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Javascript</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug 13, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Javascript Variables and Data Types</h3>
+
+                  <p class="blog-text">
+                    In this lesson we'll learn how to declare variables in JavaScript & explore the available data
+                    types. We'll also learn
+                    about Dynamic typing & address common pitfalls with data types
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=DN6O-J1Kt-U">
+
+                <figure class="blog-banner-box">
+                  <img src="https://i.ytimg.com/vi/DN6O-J1Kt-U/maxresdefault.jpg"
+                    alt="Web scraping without writing code || Amazon data Project || Webscraper plugin" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Scraping</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 12, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Web scraping without writing code || Amazon data Project || Webscraper
+                    plugin</h3>
+
+                  <p class="blog-text">
+                    We will scrape data from amazon without writing a single line of code using a web scraper plugin.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=GPFA0ntJkkk">
+
+                <figure class="blog-banner-box">
+                  <img src="https://uploads.sitepoint.com/wp-content/uploads/2017/05/1496053427aos-library.png"
+                    alt="Animation on Scrolling Effect Project AOS Library" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Animation</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 28, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Animation on Scrolling Effect Project AOS Library</h3>
+
+                  <p class="blog-text">
+                    In this tutorial, we will build a website from scratch using the AOS (Animate on Scroll) library to
+                    implement fading
+                    effects when the page is scrolled.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=eqK1ZS5zEaE">
+
+                <figure class="blog-banner-box">
+                  <img src="https://codingsumit.com/static/5b331016fcf3a870876bb5e94916fc80/86f4e/spread.png"
+                    alt="Javascript's three dots ( ... ) Spread & rest operators" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Javascript</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 29, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Javascript's three dots ( ... ) Spread & rest operators</h3>
+
+                  <p class="blog-text">
+                    Get a deep understanding of what the spread & rest operators are & also study their use cases.
+                    Filled with examples and use-cases.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=ZF4Z5kL1ePY">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*_3XepNDk6wDs18gvzeOHVA.jpeg"
+                    alt="JS Objects Basics" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Javascript</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 25, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">JS Objects Basics</h3>
+
+                  <p class="blog-text">
+                    A simple tutorial explaining what objects are & how to create, modify objects in Javascript along
+                    with new ES-6
+                    features. Also covers keywords such as this, new, class, constructor etc.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=51sh2cBhbRI">
+
+                <figure class="blog-banner-box">
+                  <img src="https://www.freecodecamp.org/news/content/images/2023/08/JS-EVERY-OPERATOR.png"
+                    alt="JS Objects Basics" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Javascript</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Mar 3, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Javascript Operators</h3>
+
+                  <p class="blog-text">
+                    Learn various Javascript operators.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@ikhan77727/python-snippets-1ec03f3ba0fd">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*XiX6DMhpHxWbMJHX.png"
+                    alt="Python Snippets" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Python</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 26, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Python Snippets</h3>
+
+                  <p class="blog-text">
+                    Learn new tricks in Python with cool snippets.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <!-- <script src="./assets/js/script.js"></script> -->
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
