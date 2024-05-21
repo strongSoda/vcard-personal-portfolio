@@ -963,6 +963,11 @@ main {
   overflow: hidden;
   margin-bottom: 15px;
   background-color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+.project-img img {
 }
 
 .project-img::before {
